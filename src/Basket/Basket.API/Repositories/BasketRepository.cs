@@ -4,10 +4,6 @@ using Basket.API.Repositories.Interfaces;
 using Newtonsoft.Json;
 using StackExchange.Redis;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection.Metadata.Ecma335;
-using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Basket.API.Repositories

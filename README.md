@@ -62,3 +62,17 @@ Swagger telepítése a Projekthez
 
 Docker-compose futtatása
 	- docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+
+RabbitMQ telepítése Dockerben:
+	- docker run -d --hostname my-rabbit --name some-rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management
+
+RabbitMQ felületre belépés:
+	- http://localhost:8080    guest/guest
+
+RabbitMQ telepítése a projekthez:
+	NuGet Package Manager segítségével telepítsük fel a következő csomagot:
+	- RabbitMQ.Client
+
+Automapper telepítése a projekthez
+	NuGet Package Manager segítségével telepítsük fel a következő csomagot:
+	- AutoMapper.Extensions.Microsoft.DependencyInjection
